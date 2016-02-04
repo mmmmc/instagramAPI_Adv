@@ -2,6 +2,7 @@
 <html>
     <head>
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="style.css" rel="stylesheet" type="text/css" />
         <!--CSS goes here-->
         <script src="//code.jquery.com/jquery.min.js"></script>
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
@@ -9,12 +10,20 @@
         <script src="js/script.js"></script>
         <title>Flickr API Searcher</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        
+    <style> 
+            background-color: pink
+    </style>
+        
+        
     </head>
     <body>
         <div class="container">
             <h1>Flickr Search</h1>
             <hr/>
             <div class="well well-lg">
+                
+                 
 
                 <div class="row">
                     <div class="col-sm-1"></div>
@@ -23,8 +32,11 @@
                     </div>
                     <div class="col-sm-2">
                         <button type="submit" id="search-btn" class="btn btn-primary btn-block">Search</button>
+                    </div
+                    
+                    <div class="col-sm-1">
+                        <button type="submit" id="reset-btn" class="btn btn-primary btn-block">Reset</button>
                     </div>
-                    <div class="col-sm-1"></div>
                 </div>
             </div>
             <hr/>
